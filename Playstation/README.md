@@ -12,3 +12,5 @@
 - Adding side borders and backgrounds using div classes
 - Media Queries and how to add/re-size elements 
 - Making media queries possible through JavaScript
+
+Head onto [Resources](https://github.com/siddhiiguptaa/Frontend-Fobia/blob/main/RESOURCES.md) to find learning videos and tips! 🍸
