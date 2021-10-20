@@ -1,0 +1,112 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #000;
+    color:#d8d8d8;
+    border-bottom: 0.5px solid gray;
+    width:100%;
+    line-height: 80px;
+    font-size: 18px;
+    padding: 0px 30px;
+    position:absolute;
+    font-family: 'Karla';
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #d8d8d8;
+}
+/* Some Inherited Properties */
+.navbar a.nav-logo{
+    float:left;
+    height:inherit;
+    line-height:inherit;
+    padding: 0px 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Karla';
+    color:#d8d8d8;
+    font-weight: bold;
+}
+
+.navbar ul{
+    float: right;
+    height: inherit;
+    line-height: inherit;
+    list-style: none;
+    padding: 0px 50px;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a {
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0px 30px;
+}
+/* Pseudo Element */
+.navbar ul li a:hover{
+    background-color: gray;
+}
+
+body{
+    background-color: #000;
+}
+
+.content{
+    font-family: 'Karla';
+    color: #d8d8d8;
+    margin-top: 30%;
+    margin-left:100px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+p{
+    margin-top: 10px;
+}
+/* Grid Box */
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btns{
+    margin-top: 20px;
+    background: #d8d8d8;
+    cursor: pointer;
+    color:#191919;
+    padding: 12px 20px;
+    float:left;
+    border: 0;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.btns:hover{
+    background-color: #848482;
+}
+
+img{
+    margin-top: 80px;
+    margin-left:150px;
+    width: 550px;
+    transform: translateY(95px); /* Code added */
+    filter: grayscale(1); /* Changing the color of the main image */
+}
+
+img:hover{
+    filter: grayscale(0); /* Reverting the color of the main image */
+    transition: 5s; /* Animating the main image */
+    cursor: pointer;
+}
